@@ -1,8 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <h1> Hello! </h1>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body{
+				background-color:rgb(0,0,0);
+				font-family: fantasy, impact;
+				font-style: italic;
+				color: rgb(255,0,0);
+				background-image: url(./images/universe-galaxy.jpg);
+			}
+            .tbl, tr, td, th{
+            	border: 1px solid red;
+            	border-collapse: collapse;
+            }
+
+            table, h1, h2{
+            	color: orangered;
+            }
+
+            .categories{
+            	font-weight: bold;
+            	color: orangered;
+            }
+
+            a{
+            	text-decoration: none;
+            }
+
+            #host{
+            	text-align: center;
+            	width: 160px;
+            }
+
+            img{
+            	width: 500px;
+            }
+            #date_and_time{
+            	text-align: center;
+            	width: 150px;
+            }
+            #event{
+            	text-align:left ;
+            	width: 250px;
+            }
+            #content{
+            	line-height:1.5em;
+            }
+			.website{
+				width: 250px;
+			}
+           
+
+		</style>	
+		
+	</head>
+	<body>
+		<h1> The  Unofficial Galactic Empire website</h1>
+		
+        <p>Jump to Sections:
+           <a href= "#about">About</a>
+           <a href="#upcoming">Upcoming</a>
+        </p>
+        		
+		<img src = "https://static.wikia.nocookie.net/disney/images/4/46/Galactic_Empire_emblem.svg.png/revision/latest?cb=20130925164228" alt="Galactic Empire's symbol">
+
+		<h2>Upcoming Events:</h2>
+        <h3 id= "upcoming">Upcoming</h3>
+        <table class= "tbl">
+			<thead>
+				<tr>
+					<th class = "categories">Event</th>
+					<th class = "categories">Date and Time</th>	
+					<th class = "categories">Host</th>	
+				</tr>
+			</thead>
+			<tbody>
+				<tr> 
+					<td id= "event">
+						<ul>
+							<li>Stormtrooper Party</li>
+							<li>Attack on the Rebels</li>
+							<li>The Emperor's big speech</li>
+						</ul>
+					</td>
+					<td id= "date_and_time">Dec.25th 2040 @ 6:00 <br>
+						June 15th @ 1:00 <br>
+						June 15th @ 12:30
+					</td>
+					<td id="host">
+						George Lucas<br>
+						Harrison Ford<br>
+						Mark Hamil
+					</td>
+
+				</tr>		
+			</tbody>	
+		</table>
+
+        <h3 id="about">About</h3>
+        <h1>About the Galactic Empire</h1>
+		
+		<p id= "content">
+		<p>
+			The Galactic Empire are a union that wants to destroy the Jedi. They are the main antagonists in the Star Wars universe.
+			<br>Their leader, Darth Sidious, plans to take over every planet and take over the galaxy. 
+			In Star Wars: Revenge of the Sith, Darth Sidious tricks Anakin Skywalker, a very skilled Jedi, into joining the Empire. 
+			<br>Soon, Anakin Skywalker became Darth Vader, a powerful Sith Lord. 
+			In Return of the Jedi (episode 6) the Empire were defeated by the Rebels and were forced to surrender.
+		</p>
+		
+		<table class= "tbl">
+			<thead>
+				<tr>
+					<th class = "sections">websites</th>
+					<th class = "sections">description</th>
+					<th class = "sections">evaluation</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class= "website">
+						<a href= "https://starwars.fandom.com/wiki/Main_Page">starwars.fandom.com</a>				
+					</td>
+					<td>
+						fandom site
+					</td>
+					<td>
+						4/5
+					</td>
+				</tr>
+				<tr>
+					<td class= "website">
+                    	<a href=  "https://www.lego.com/en-ca/product/death-star-final-duel-75291">lego.com</a>			
+					</td>
+					<td>
+						a star wars lego set
+					</td>
+					<td>
+						5/5
+					</td>
+				</tr>
+				<tr>
+					<td class= "website">
+                    	<a href= "https://en.wikipedia.org/wiki/Star_Wars_(film)">wikipedia.org</a>				
+					</td>
+					<td>
+						what wikipedia made
+					</td>
+					<td>
+						2/5
+					</td>
+				</tr>
+
+
+			</tbody>	
+		</table>
+	</body>
 </html>

@@ -14,90 +14,25 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<style>
-			/*grandparent -> parent -> child*/
-			/*main tag: html > head, body > h1, p, h2, ul... > li..*/
-			/* p > strong > class, id name */
-			/* ul > li > class, id name */
-			/* h2 > class name: 'metal' */
 
-			body{
-				font-family: fantasy, impact;
-				font-style: italic;
-				color: rgb(255,255,255);
-				background-color: black;
-				margin: 31px;
-				padding: 20px;
-				border: 1px solid white;
-			}
-            .tbl, tr, td, th{
-            	border: 1px solid ;
-            	border-collapse: collapse;
-            }
-
-            h1, h2{
-            	color: rgb(204, 27, 27);
-            }
-
-            .categories{
-            	font-weight: bold;
-            }
-
-            a{
-            	text-decoration: none;
-            }
-
-            #host{
-            	text-align: center;
-				padding: 10px;
-            	/* width: 160px; */
-            }
-
-            img{
-            	width: 500px;
-            }
-
-			img#logo{
-				float: left;
-				width: 200px;
-				margin-right: 10px;
-			}
-
-            #date_and_time{
-            	text-align: center;
-				padding: 10px;
-            	/* width: 150px; */
-            }
-            #event{
-            	text-align:left ;
-            	/* width: 250px; */
-				padding:10px;
-            }
-            #content{
-            	line-height:1.5em;
-				overflow-y: auto;
-				overflow-x: hidden;
-				width: 100%;
-				/* height:120px; */
-            }
-			.websites, .desc, .eval{
-				padding-right:10px;
-				padding-left:10px;
-			}
-			#src{
-				width:500px;
-			}
-            .silver-frame{
-				border: 10px ridge rgb(204, 204, 204);
-			}
-
-			/* float: fixed */
-
-		</style>	
+		<!-- external CSS -->
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
 		
+		<!-- internal CSS -->
+		<style>
+		</style>	
+
 	</head>
 	<body>
 		<h1> The  Unofficial Galactic Empire website</h1>
+        <nav>
+			<a class="nav-bar" href="./index.html">HOME</a>
+			<a class="nav-bar" href="./characters.html">CHARACTERS</a>
+			<a class="nav-bar" href="./story.html">STORY</a>
+			<a class="nav-bar" href="./gallery.html">GALLERY</a>
+			<a class="nav-bar" href="./games.html">GAMES</a>
+			<a class="nav-bar" href="./about.html">ABOUT</a>
+		</nav>		
         <p>Jump to Sections:
            <a href= "#about">About</a>
            <a href="#upcoming">Upcoming</a>
@@ -138,7 +73,7 @@
 
         <h1 id= "about">About the Galactic Empire</h1>
 		<p id= "content">
-			<img id= "logo" src = "images/Galactic_Empire_emblem.png"></img>
+			<img id= "logo" src = "https://static.wikia.nocookie.net/star-wars-canon/images/a/a9/Galactic_Empire_emblem.png/revision/latest?"></img>
 			The Galactic Empire are a union that wants to destroy the Jedi. They are the main antagonists in the Star Wars universe.
 			Their leader, Darth Sidious, plans to take over every planet and take over the galaxy. 
 			In Star Wars: Revenge of the Sith, Darth Sidious tricks Anakin Skywalker, a very skilled Jedi, into joining the Empire. 
